@@ -1,0 +1,123 @@
+
+*{margin: 0px; padding: 0px; }
+body {overflow-x: hidden; margin: 0; padding: 0; }
+
+
+/***************************************Header*****************************************************/
+/**/.cabezera{padding-top: 10px;}
+/**/.imgv{width: 100%;}
+
+/************Nav Menu************************************************************************/
+/**/.logo{width: 281px; height: 51px;}
+/**/.navbar-nav  li  {    font-family:'Proxima Nova Rg'; padding: 0 0.8vw; font-size: 1.3vw;}
+/**/.titulo-image{font-family: 'Roboto Bold'; width: 100%; background: #E2166A; color: #fff; padding: 1vw; margin-bottom: 10px;  }
+/**/
+/**/ .titulo-image h1 { margin: 0; font-weight: bold;  font-size: 4.5vw}
+/**/ .titulo-image span{font-size: 2.3vw; font-weight: bold;}
+
+/*************************************Fin header ***********************************************/
+
+/*****************************Seccion 1*********************************************************/
+/**/.seccion1{margin-bottom: 30px;}
+/**/.P-promocion{font-family: 'Roboto Bold'; font-size: 1.3vw; }
+/**/.titulo-promocion{padding: 0 1.5vw;}
+/**/.titulo-promocion span{font-family: 'Tahoma'; font-size: 3.2vw;}
+/**/.titulo-promocion .span2{color: #30A9DB;}
+/**/.span2{color: #30A9DB;}
+/**/.buton-azul{width: 75%; background: #30A9DB; color: #fff; margin-top: 3vw; padding: 1vw; cursor: pointer; } 
+/*****************************Fin seccion1*********************************************************************/
+
+
+
+/*********************************Seccion2*********************************************************************/
+/**/.item{ border-radius: 5px; font-family: 'Roboto Bold';   background: #fff; border: 1px solid #C1C1C1;}
+/**/.column{padding-bottom: 20px;}
+/**/.item-cont-1{float: left;   border-bottom-left-radius: 5px;  border-right: 1px solid #C1C1C1;  width: 50%; position: absolute; padding-top: 5%; padding-bottom: 21px;}
+/**/.item-cont-2{ padding-top: 5%; float: left;   margin-right: 10px; margin-left: calc(50% + 15px);; width: calc(50% - 15px);}
+/**/.item-cont-3{position: relative; width: 100%;  clear: both;  margin-top: 50%;    font-size: 1.3vw; font-weight: bold; color: #fff; }
+/**/.item-cont-3 a{color: #fff; text-decoration: none;  }
+/**/.item-a{width: 93%; float: left;  padding-top: 0px; margin-left: 10px; padding-bottom: 0px;}
+/**/.item-b{width: 100%;  float: left; padding-top: 0px;}
+/**/.item-c{  background: #85BB25; border-left: 1px solid #C1C1C1; border-bottom-right-radius: 4px; padding-left: 5%; }
+/**/.item-c{margin-left: calc(50% + 15px);; width: calc(50% - 15px);}
+/**/.item-text{font-family: 'Roboto Bold'; text-align: justify; padding-left: 10%; padding-right: 8%; padding-top: 2%;}
+/**/.item-text h4{margin-top: 0px; font-family: 'Roboto Bold'; font-weight: bold;}
+/**/.item-image{width: 100%}
+/**/ .item-image img{width: 100%; padding-top:0%;}
+/*****************************Fin seccion2**********************************************************************/
+
+
+
+
+/*********************************Seccion3**********************************************************************************/
+/**/.seccion3{margin-top: 4%;}
+/**/.cont-logos{border-top: solid 1px #C1C1C1;  border-bottom: solid 1px #C1C1C1; font-family: 'Roboto Regular'; font-size: 2.3vw; text-align: center; }
+/**/.titulo-tiendas{padding: 1.5vw 0px;}
+/**/.subtitulo-tiendas{padding: 1.5vw 0px;  text-align: left; font-size: 1.2vw;}
+/**/.log1,.log2,.log3,.log4,.log5,.log6,.log7,.log8 {padding: 1.5vw 0;}
+/**/.logs-tiendas1, .logs-tiendas2{padding: 1vw 0px;}
+/**/.logs-tiendas1 span{margin: 1vw 0px;}
+/**/.log1,.log5{text-align: left;}
+/**/.log3,.log4,.log6,{text-align: right;}
+/*************************************************Fin Seccion3*******************************************************************************************/
+
+
+
+/*Resolucion mayores de 1326 */
+@media only screen and (min-width : 1326px) {
+/**/.item-text p {font-size: 100%; font-weight: bold; line-height: 1.7; }
+}
+
+/**//*Resoluciones           de  1200px     y    de  1326px*/
+@media only screen and (min-width : 1200px) and (max-width : 1326px) {
+/**/.item-text p {font-size: 97%; font-weight: bold; line-height: 1.6; }
+}
+
+
+/**//*Resoluciones          de 991px    a    1199px*/
+@media only screen and (min-width : 991px) and (max-width : 1199px) {
+/**/.item-text p {font-size: 91%; font-weight: bold; line-height: 1.3; }
+}
+
+/**//*Resoluciones           de  768     y   menores de  991*/
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+.buton-azul{ margin: auto; font-size: 3.2vw;  }
+/**/.item-text p {font-size: 76%; font-weight: bold; line-height: 1; }
+/**/.titulo-promocion-boton {margin-top: 10px;}
+/**/.log1 img{width: 80%;} .log2 img{width: 80%;} .log3 img{width: 80%;} .log4 img{width: 80%;} .log5 img{width: 80%;} .log6 img{width: 80%;} .log7 img{width: 80%;} .log8 img{width: 80%;} 
+}
+
+/**//*Resoluciones            559px     a     767px*/
+@media only screen and (min-width : 559) and (max-width : 767px) {
+/**/.item-cont-1{ padding-top: 6%; padding-bottom: 15px;}
+}
+
+/*Resoluciones           de  316px     a     559px*/
+@media only screen and (min-width : 316px) and (max-width : 558px){
+/**/.item-cont-1{ padding-top: 3%; padding-bottom: 15px;}
+}
+
+/**//*Resoluciones           de  316px     a     767 px*/
+@media only screen and (min-width : 316px) and (max-width : 767px) {
+/**/.item{ border-radius: 5px; font-family: 'Roboto Bold';   background: #fff; border: 1px solid #C1C1C1;}
+.buton-azul{ margin: auto; font-size: 3.2vw;  }
+/**/.item-cont-3{font-size: 3vw; margin-top: 49%; }
+/**/.item-text h4{font-size: 3vw;}
+/**/.item-text p {font-size: 2.8vw; font-weight: bold; line-height: 1; }
+/**/.titulo-promocion-boton {margin-top: 10px;}
+/**/.navbar-nav  li{font-size: 3vw;}
+/**/.log1,.log2,.log3,.log4,.log5,.log6,.log7,.log8 {text-align: center;}
+/**/.subtitulo-tiendas{font-size: 2vw;}
+
+}
+
+
+
+
+
+footer.pie-pagina {width: 100%;  color: #000; }
+ul.iconos-redes li {list-style: none;}
+ul.iconos-redes li a {cursor: pointer;}
+ul.iconos-redes li a > img{margin: 2vw 1vw 1vw 1vw;}
+footer.pie-pagina.text-center .container p {margin: 1vw 0vw 2vw 0vw;}
+
